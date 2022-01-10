@@ -1,0 +1,34 @@
+{
+    "name": "bagisto/bagisto-reward-points",
+    "description": "Allows the admin to create reward  at the back-end.",
+    "keywords": [
+        "bagisto",
+        "rewards",
+        "reward points"
+    ],
+    "homepage": "https://github.com/bagisto/bagisto-reward-points",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Deepak singh Gusain",
+            "email": "deepaksingh.gusain227@webkul.com"
+        }
+    ],
+    "require": {
+        "konekt/concord": "^1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Webkul\\Rewards\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Webkul\\Rewards\\Providers\\RewardsServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev"
+}
+
