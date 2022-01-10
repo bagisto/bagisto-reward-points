@@ -93,6 +93,7 @@ php artisan vendor:publish --force
 
 - Go to  app/Console/Kernel.php And Replace the below code
 
+```
 <?php
 
 namespace App\Console;
@@ -139,3 +140,4 @@ class Kernel extends ConsoleKernel
         require base_path('routes/console.php');
     }
 }
+```
