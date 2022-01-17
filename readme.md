@@ -41,41 +41,6 @@ php artisan vendor:publish --force
 ```
 -> Press the number before RewardsServiceProvider and then press enter to publish all assets and configurations.
 
-## Installation without composer:
-
-- Unzip the respective extension zip and then merge "packages" folders into project root directory.
-- Goto config/app.php file and add following line under 'providers'
-
-```
-Webkul\Rewards\Providers\RewardsServiceProvider::class
-```
-
-- Goto composer.json file and add following line under 'psr-4'
-
-```
-"Webkul\\Rewards\\": "packages/Webkul/Rewards/src"
-```
-
-- Run these commands below to complete the setup
-
-```
-composer dump-autoload
-```
-
-```
-php artisan migrate
-```
-
-```
-php artisan route:cache
-```
-
-```
-php artisan vendor:publish --force
-
--> Press the number before RewardsServiceProvider and then press enter to publish all assets and configurations.
-```
-
 > now execute the project on you
 
 ## Commands For DOB and Expire Check:
