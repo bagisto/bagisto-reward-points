@@ -15,7 +15,7 @@ It packs in lots of demanding features that allows your business to scale in no 
 
 - **Bagisto**: v1.3.2.
 
-## Installation with composer:
+## Installation :
 - Run the following command
 ```
 composer require bagisto/bagisto-reward-points
@@ -38,9 +38,8 @@ php artisan config:cache
 ```
 ```
 php artisan vendor:publish --force
-
--> Press the number before RewardsServiceProvider and then press enter to publish all assets and configurations.
 ```
+-> Press the number before RewardsServiceProvider and then press enter to publish all assets and configurations.
 
 ## Installation without composer:
 
@@ -63,7 +62,6 @@ Webkul\Rewards\Providers\RewardsServiceProvider::class
 composer dump-autoload
 ```
 
-
 ```
 php artisan migrate
 ```
@@ -77,7 +75,6 @@ php artisan vendor:publish --force
 
 -> Press the number before RewardsServiceProvider and then press enter to publish all assets and configurations.
 ```
-
 
 > now execute the project on you
 
