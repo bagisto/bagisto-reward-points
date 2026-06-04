@@ -1,0 +1,49 @@
+{
+  "src/Resources/assets/css/app.css": {
+    "file": "assets/app-4cad1efd.css",
+    "isEntry": true,
+    "src": "src/Resources/assets/css/app.css"
+  },
+  "src/Resources/assets/css/shop.css": {
+    "file": "assets/shop-db2dc0a2.css",
+    "isEntry": true,
+    "src": "src/Resources/assets/css/shop.css"
+  },
+  "src/Resources/assets/fonts/icomoon.woff": {
+    "file": "assets/icomoon-e7827eae.woff",
+    "src": "src/Resources/assets/fonts/icomoon.woff"
+  },
+  "src/Resources/assets/images/Icon-reward-active.png": {
+    "file": "assets/Icon-reward-active-5180936b.png",
+    "src": "src/Resources/assets/images/Icon-reward-active.png"
+  },
+  "src/Resources/assets/images/Icon-reward-active.svg": {
+    "file": "assets/Icon-reward-active-7f5fcbc7.svg",
+    "src": "src/Resources/assets/images/Icon-reward-active.svg"
+  },
+  "src/Resources/assets/images/Icon-reward.png": {
+    "file": "assets/Icon-reward-8c9f7c2d.png",
+    "src": "src/Resources/assets/images/Icon-reward.png"
+  },
+  "src/Resources/assets/images/Icon-reward.svg": {
+    "file": "assets/Icon-reward-f3deccd6.svg",
+    "src": "src/Resources/assets/images/Icon-reward.svg"
+  },
+  "src/Resources/assets/images/logo.svg": {
+    "file": "assets/logo-942157c2.svg",
+    "src": "src/Resources/assets/images/logo.svg"
+  },
+  "src/Resources/assets/images/reward-point-config.svg": {
+    "file": "assets/reward-point-config-33657062.svg",
+    "src": "src/Resources/assets/images/reward-point-config.svg"
+  },
+  "src/Resources/assets/images/reward_points.svg": {
+    "file": "assets/reward_points-5b7b77be.svg",
+    "src": "src/Resources/assets/images/reward_points.svg"
+  },
+  "src/Resources/assets/js/app.js": {
+    "file": "assets/app-4ed993c7.js",
+    "isEntry": true,
+    "src": "src/Resources/assets/js/app.js"
+  }
+}

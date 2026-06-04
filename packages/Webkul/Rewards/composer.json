@@ -1,0 +1,23 @@
+{
+    "name": "bagisto/laravel-rewards",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bagisto",
+            "email": "bagisto@example.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Webkul\\Rewards\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Webkul\\Rewards\\Providers\\RewardsServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev"
+}
